@@ -1,3 +1,3 @@
-# Front-end Knowlege & Skill Evaluating System
+# 前端知识与技能考核评价体系
 
-As what you had seen. ;-D
+如题。
