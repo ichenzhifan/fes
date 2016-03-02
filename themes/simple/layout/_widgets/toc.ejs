@@ -1,0 +1,19 @@
+<section class="Widget Widget--toc">
+  <header class="Widget-header">
+    <h2 class="Widget-title">目录</h2>
+  </header>
+  <div class="Widget-body">
+    <ul>
+      <% _.forEach(contents, function( cat, k ) { %>
+        <li>
+          <a href="#<%= k %>"><%= cat.name %></a>
+          <ul>
+            <% cat.items.forEach(function( sc ) { %>
+              <li><a href="#<%= sc.slug || sc.name %>"><%= sc.name %></a></li>
+            <% }) %>
+          </ul>
+        </li>
+      <% }) %>
+    </ul>
+  </div>
+</section>

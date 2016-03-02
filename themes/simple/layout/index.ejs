@@ -6,12 +6,12 @@
     <% } %>
   </header>
   <% _.forEach(site.data.abilities, function( cat, k ) { %>
-    <h2><%= cat.name %></h2>
+    <h2 id="<%= k %>"><%= cat.name %></h2>
     <% if ( cat.description ) { %>
       <%- cat.description %>
     <% } %>
     <% cat.items.forEach(function( sc ) { %>
-      <h3><%= sc.name %></h3>
+      <h3 id="<%= sc.slug || sc.name %>"><%= sc.name %></h3>
       <% if ( sc.description ) { %>
         <%- sc.description %>
       <% } %>
@@ -25,4 +25,7 @@
       <% } %>
     <% }) %>
   <% }) %>
+  <footer>
+    <%- partial("_widgets/toc", {contents: site.data.abilities}) %>
+  </footer>
 </article>
