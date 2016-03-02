@@ -3,10 +3,21 @@ basic:
   items:
     - name: HTML
       slug: html
+      items:
+        - name: 标签的语义
+        - name: 何为 HTML5
     - name: CSS
       slug: css
+      items:
+        - name: 浮动与定位
     - name: JavaScript
       slug: javascript
+      items:
+        - name: 运行原理
+        - name: 作用域及作用域链
+        - name: 原型链与继承
+        - name: 闭包
+        - name: 事件机制
     - name: SEO
       slug: seo
     - name: HTTP
@@ -17,6 +28,8 @@ basic:
       slug: programming-paradigm
     - name: 算法
       slug: algorithm
+    - name: 设计模式
+      slug: 
     - name: 正则表达式
       slug: regexp
     - name: Git
@@ -26,11 +39,16 @@ integrated:
   name: 综合运用
   items:
     - name: 响应式开发
-      slug: 
+      slug: responsive-web
     - name: 移动端开发
-      slug: 
+      slug: mobile-web
     - name: 纯 CSS 实现
-      slug: 
+      slug: pure-css
+      items:
+        - name: 清除浮动
+        - name: Sticky Footer
+        - name: 多级菜单
+        - name: 绝对居中
 
 experience:
   name: 经验总结
@@ -41,7 +59,12 @@ experience:
       slug: 
     - name: 前端工程
       slug: 
+      items:
+        - name: 命名方式
     - name: 团队及项目管理
       slug: 
+      items:
+        - name: Git 分支管理
+        - name: Git 提交规范
     - name: UI 组件设计及开发
       slug: 
