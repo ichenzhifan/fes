@@ -1,0 +1,47 @@
+basic:
+  name: 基础知识
+  items:
+    - name: HTML
+      slug: html
+    - name: CSS
+      slug: css
+    - name: JavaScript
+      slug: javascript
+    - name: SEO
+      slug: seo
+    - name: HTTP
+      slug: http
+    - name: 数据结构
+      slug: data-structure
+    - name: 编程范型
+      slug: programming-paradigm
+    - name: 算法
+      slug: algorithm
+    - name: 正则表达式
+      slug: regexp
+    - name: Git
+      slug: git
+
+integrated:
+  name: 综合运用
+  items:
+    - name: 响应式开发
+      slug: 
+    - name: 移动端开发
+      slug: 
+    - name: 纯 CSS 实现
+      slug: 
+
+experience:
+  name: 经验总结
+  items:
+    - name: 结构、表现、行为相分离
+      slug: 
+    - name: 统一标签默认样式
+      slug: 
+    - name: 前端工程
+      slug: 
+    - name: 团队及项目管理
+      slug: 
+    - name: UI 组件设计及开发
+      slug: 

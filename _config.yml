@@ -5,7 +5,7 @@
 # Site
 title: 前端知识与技能考核评价体系/系统
 subtitle:
-description:
+description: 
 author: 欧雷
 language: zh-CN
 timezone: Asia/Shanghai
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: simple
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

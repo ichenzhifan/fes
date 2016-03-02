@@ -1,0 +1,19 @@
+<article>
+  <header>
+    <h1><%= config.title %></h1>
+    <% if ( config.description ) { %>
+      <p><%= config.description %></p>
+    <% } %>
+  </header>
+  <% _.forEach(site.data.abilities, function( cat, k ) { %>
+    <h2><%= cat.name %></h2>
+    <% cat.items.forEach(function( sc ) { %>
+      <h3><%= sc.name %></h3>
+      <% if ( sc.items ) { %>
+        <% sc.items.forEach(function( k ) { %>
+          <h4><%= k.name %></h4>
+        <% }) %>
+      <% } %>
+    <% }) %>
+  <% }) %>
+</article>
