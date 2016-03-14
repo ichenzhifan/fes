@@ -12,8 +12,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://fes.ourai.ws
-root: /
+url: http://f2eso.github.io
+root: /fes/
 permalink: posts/:title/
 permalink_defaults:
 
