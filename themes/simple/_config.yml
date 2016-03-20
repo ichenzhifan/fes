@@ -1,3 +1,6 @@
+disqus:
+  shortname: ouraifes
+
 node_sass:
   outputStyle: nested
   precision: 5
