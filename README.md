@@ -1,4 +1,4 @@
-# 前端知识与技能考核评价体系/系统
+# 前端知识与技能考核评价体系
 
 本项目的英文名为「Front-end Knowledge & Skill Evaluating System」，简称「FES」，内容详见[项目网站](http://fes.ourai.ws/)。
 
